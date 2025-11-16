@@ -1,0 +1,20 @@
+.news-status{color:var(--muted);margin:14px 0}
+.news-list{list-style:none;padding:0;margin:14px 0 40px;display:grid;gap:12px}
+.news-item{background:linear-gradient(180deg, rgba(255,255,255,0.015), transparent);padding:16px;border-radius:12px;border:1px solid rgba(255,255,255,0.02);display:block}
+.news-item a{color:var(--text);text-decoration:none;font-weight:700;font-size:16px}
+.news-item a:hover{color:var(--text);text-decoration:underline}
+.news-meta{color:var(--muted);font-size:13px;margin-top:6px}
+.news-source{font-weight:600;color:var(--muted);margin-right:8px}
+.news-note{color:var(--muted);font-size:13px;margin-top:18px}
+#news-controls{display:flex;gap:12px;align-items:center;margin:10px 0}
+#filterInput{background:transparent;border:1px solid rgba(255,255,255,0.04);color:var(--muted);padding:8px;border-radius:8px}
+#reloadBtn{background:transparent;border:1px solid rgba(255,255,255,0.04);color:var(--muted);padding:8px 12px;border-radius:8px;cursor:pointer;transition:all .18s ease}
+#reloadBtn:hover{border-color:rgba(255,255,255,0.08);color:var(--text)}
+
+.petition-form{display:flex;flex-direction:column;gap:10px;margin-top:16px}
+.petition-form label{display:flex;flex-direction:column;color:var(--muted);font-weight:600}
+.petition-form input,.petition-form textarea{background:transparent;border:1px solid rgba(255,255,255,0.04);color:var(--text);padding:10px;border-radius:8px}
+.petition-actions{display:flex;gap:12px;margin-top:6px}
+.petition-form .cta{border:1px solid rgba(255,255,255,0.04);background:transparent;color:var(--text)}
+.petition-form .cta:hover{opacity:0.9}
+

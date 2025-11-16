@@ -1,0 +1,11 @@
+{
+  "sources": [
+    {"name":"phoronix","url":"https://www.phoronix.com/rss.php"},
+    {"name":"lwn","url":"https://lwn.net/headlines/rss"},
+    {"name":"freebsd","url":"https://www.freebsd.org/news/atom.xml"},
+    {"name":"openbsd","url":"https://www.openbsd.org/feeds/announce.rdf"},
+    {"name":"slashdot","url":"https://slashdot.org/index.rss"},
+    {"name":"linux.com","url":"https://www.linux.com/feed/"},
+    {"name":"distrowatch","url":"https://distrowatch.com/news/dw.rss"}
+  ]
+}

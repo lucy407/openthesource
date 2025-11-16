@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>News — OpenTheSource</title>
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/news.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="logo-strip">
+      <div class="ots-logo" aria-hidden="true">
+        <img src="../assets/ots.jpg" alt="Ots" />
+      </div>
+    </div>
+    <nav class="topbar">
+      <ul class="nav-links">
+        <li><a href="../index.html">home</a></li>
+        <li><a href="news.html" aria-current="page">open-source news</a></li>
+        <li><a href="petition.html">petition</a></li>
+        <li><a href="donate.html">donate</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="panel" style="min-height:auto;padding-top:40px;">
+    <div class="panel-inner" style="max-width:1100px;">
+      <h1>ots. news</h1>
+      <p class="lede">here we feature a large aggregator that scrapes the web for open-source tech news.</p>
+
+      <div id="news-controls">
+        <label>Keyword filter: <input id="filterInput" placeholder="(press Enter to apply)" /></label>
+        <button id="reloadBtn">Reload</button>
+      </div>
+
+      <div id="news-status" class="news-status">Loading news…</div>
+      <ul id="news-list" class="news-list" aria-live="polite"></ul>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <small>© OpenTheSource — Transparency is a right, not a privilege.</small>
+  </footer>
+
+  <script src="../js/news.js" defer></script>
+</body>
+</html>
